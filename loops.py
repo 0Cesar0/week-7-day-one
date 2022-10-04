@@ -1,9 +1,44 @@
 def loop():
+ # names = ["Mary","John","David","Thomas","Janette"]
+  #for name in names:
+  #  print(F"hello {name}")
+ # a = 1
+  #while a < 10:
+  #  print(a)
+   # a = a + 1
   ###################################loops intro######################################
   # queue videos
   #what is iteration?
   #what are for loops?
+
+ # num_list = [1,2,3,4,5,6,7,8,9,10]
+ # sum = 3
+  #for num in num_list:
+   # sum = sum+num
+   
+   # print(sum)
+  #names = ["Mary","John","David","Thomas","Janette"]
+  #for name in names:
   
+  #  if names.startswith("j"):
+      # print(f"this {name} starts with j")
+
+  dic = {"Key1":"a","key2":"b","key3":"c"}
+
+  #for item in dic:
+    #print(item)
+  for a,b in dic.items():
+    print(a,b)
+   
+  coins = 30
+  while coins < 40:
+    print(f"I have {coins} coins")
+    coins += 1
+       
+   
+   
+     
+ 
   
   # For Loops Practice #1
   # Using For loops, greet all members of a class, printing "Hello" + their name.
@@ -12,6 +47,9 @@ def loop():
   
   students = ["Norville", "Fred", "Velma", "Daphne"]
   
+  for student in students:
+    print(f"Hello {student}")
+
   
   
   
